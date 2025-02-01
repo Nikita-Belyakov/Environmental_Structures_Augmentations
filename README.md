@@ -1,6 +1,6 @@
 # **CSIA: Climate Structures Inpainting Augmentations for Multispectral Remote Sensing Imagery segmentation**
 
-<img src="./RES_4_KM/l2_MANet_predict.png" width="800"/>
+<img src="CSIA_scheme2.png" width="800"/>
 
 ## **About:**
 
@@ -9,6 +9,8 @@ This repo is dedicated to novel custom augmentations for semantic segmentation t
 Augmentation requires input image sample and its mask. In these .py augmnetation cloud, its shadows and snow structures are augmneted for Landsat-8 multispectral imagery from SPARCS validation dataset: https://www.usgs.gov/landsat-missions/spatial-procedures-automated-removal-cloud-and-shadow-sparcs-validation-data
 
 We attach a trained U-Net++ segmentation model weights (from SMP: https://smp.readthedocs.io/en/latest/models.html), able to do accurate segmentation of clouds, it's shadows and snow for Landsat multispectral imagery. Each model weights are stored in **models** folder, which is seperated to 2 subfolder: **inpainting_models** & **segmentation_models**, each containing model weights for each CSIA mode.
+
+## **CITE**: https://doi.org/10.1016/j.asr.2025.01.049
 
 ## Setup python version
 All .py augmentation files from **Augmentations** folder have been run with `python 3.9.7` on Windows 10 OS with NVIDIA CUDA supported (Adapt all needed packages versions accroding your Python version)
