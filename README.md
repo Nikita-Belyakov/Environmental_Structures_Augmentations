@@ -49,4 +49,6 @@ All .py augmentation files from **Augmentations** folder have been run with `pyt
 ```
 ## Acknowledgments:
 
+This work was supported by the Russian Science Foundation (Project No. 23-71-01122).
+
 Also thanks a lot to Svetlana Illarionova (https://github.com/LanaLana) for a huge assist for creating this project!
