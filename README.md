@@ -17,7 +17,7 @@ Today convolutional neural networks (CNNs) models outperform most of the compute
 
 Examples of the improvement for climate structures segmentataion performance are illustrated below:
 
-<center><img src="pics/segmentation_examples/predict_BASE_vs_CSIA13" width="800"></center>
+<center><img src="./pics/segmentation_examples/predict_BASE_vs_CSIA13" width="800"></center>
 
 
 Other examples of UI-Net++ climate structures recontructions and U-Net++ with CSIA segmnetation performance can be found at **pics** folder in the **reconstruction_examples** & **segmentation_examples** subfolders respectively.
