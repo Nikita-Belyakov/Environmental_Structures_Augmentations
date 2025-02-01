@@ -16,6 +16,18 @@ Keywords: remote sensing; convolutional neural network; semantic segmentation; c
 
 ## **CITE**: https://doi.org/10.1016/j.asr.2025.01.049
 
+```
+@article{BELYAKOV2025,
+title = {CSIA: Climate Structures Inpainting Augmentations for Multispectral Remote Sensing Imagery segmentation},
+journal = {Advances in Space Research},
+year = {2025},
+issn = {0273-1177},
+doi = {https://doi.org/10.1016/j.asr.2025.01.049},
+url = {https://www.sciencedirect.com/science/article/pii/S0273117725000791},
+author = {Nikita V. Belyakov and Svetlana Illarionova},
+keywords = {remote sensing, convolutional neural network, semantic segmentation, custom augmentations, image restoration, cloud and its shadow inpainting, Landsat-8 imagery}
+```
+
 ## Setup python version
 All .py augmentation files from **Augmentations** folder have been run with `python 3.9.7` on Windows 10 OS with NVIDIA CUDA supported (Adapt all needed packages versions accroding your Python version)
 
